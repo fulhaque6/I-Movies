@@ -1,10 +1,8 @@
-import React from 'react';
+import HeroSection from "@/app/components/HeroSection";
 
 const Page = () => {
     return (
-        <div>
-          <h1>Hello Next js</h1>
-        </div>
+        <HeroSection title={"Let's watch movie together"} imageUrl={"/home.svg"}/>
     );
 };
 
